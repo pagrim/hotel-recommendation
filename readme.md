@@ -7,4 +7,5 @@ python -m venv .venv # Create a virtual environment
 . .venv/bin/activate # Activate the virtual environment
 pip install -r requirements.txt # install requirements
 python -m ipykernel install --user --name recommend # create ipykernel
+jupyter notebook # Start a local notebook
 ```
